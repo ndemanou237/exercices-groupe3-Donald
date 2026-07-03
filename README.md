@@ -1,13 +1,13 @@
-Getting Started
+Démarrage
 
-To start the scraping project located in the mini-project folder, follow these steps:
+Pour lancer le projet de scraping situé dans le dossier mini-project, suis ces étapes :
 
-    Navigate to the directory: Open your terminal and go to the location of the scraper.py file.
+    Accéder au répertoire : Ouvre ton terminal et rends-toi à l'emplacement du fichier scraper.py.
 
-    Create a virtual environment: Run the command python3 -m venv env to set up your environment.
+    Créer un environnement virtuel : Exécute la commande python3 -m venv env pour configurer ton environnement.
 
-    Install dependencies: Install the required packages by running pip install requests beautifulsoup4.
+    Installer les dépendances : Installe les paquets nécessaires en exécutant pip install requests beautifulsoup4.
 
-    Run the script: Once the installation is complete, execute the script on Ubuntu using python3 scraper.py. This will collect the data and save it as a JSON file in the web folder.
+    Lancer le script : Une fois l'installation terminée, exécute le script sur Ubuntu avec la commande python3 scraper.py. Cela collectera les informations et les enregistrera sous forme de fichier JSON dans le dossier web.
 
-    View the results: To visualize the output, you can either open the index.html file using Live Server (in VS Code) or run a local server by executing python3 -m http.server 8000 in your terminal. Finally, open your browser and go to http://localhost:8000.
+    Visualiser les résultats : Pour voir le résultat, tu peux soit ouvrir le fichier index.html avec Live Server (dans VS Code), soit lancer un serveur local en exécutant python3 -m http.server 8000 dans ton terminal. Enfin, ouvre ton navigateur et tape http://localhost:8000.
