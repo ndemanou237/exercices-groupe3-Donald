@@ -19,9 +19,7 @@ search.addEventListener("click", async () => {
     try {
         result.innerHTML = "<p>loading...</p>";
 
-        const response = await fetch(
-            `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=fr`
-        );
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=fr`);
 
         const data = await response.json();
 
