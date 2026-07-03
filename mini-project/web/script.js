@@ -2,15 +2,15 @@ console.log("Script chargé !");
 
 fetch('data.json')
     .then(response => {
-        if (!response.ok) throw new Error("Erreur de chargement du JSON");
+        if (!response.ok) throw new Error("Error loading JSON");
         return response.json();
     })
     .then(data => {
-        console.log("Données reçues :", data);
+        console.log("Data received :", data);
         const container = document.getElementById('quotes-container');
         
         if (!container) {
-            console.error("L'élément 'quotes-container' est introuvable dans le HTML !");
+            console.error("The element 'quotes-container' is not found in the HTML !");
             return;
         }
 
